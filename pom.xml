@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.keyin</groupId>
-    <artifactId>s4_2022_spring_springboot1</artifactId>
+    <artifactId>S4_Sprint2_Java</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <parent>

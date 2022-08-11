@@ -1,6 +1,15 @@
 package com.keyin.rest;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Car {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
     private String car_make;
     private String car_model;
     private String car_year;
@@ -55,4 +64,6 @@ public class Car {
     public void setCar_km(String car_km) {
         this.car_km = car_km;
     }
+
+    public long getId(){return id;}
 }
