@@ -10,59 +10,59 @@ public class Car {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-    private String car_make;
-    private String car_model;
-    private String car_year;
-    private String car_price;
-    private String dealer_location;
-    private String car_km;
+    private String carMake;
+    private String carModel;
+    private String carYear;
+    private String carPrice;
+    private String dealerLocation;
+    private String carKm;
 
-    public String getCar_make() {
-        return car_make;
+    public String getCarMake() {
+        return carMake;
     }
 
-    public void setCar_make(String car_make) {
-        this.car_make = car_make;
+    public void setCarMake(String carMake) {
+        this.carMake = carMake;
     }
 
-    public String getCar_model() {
-        return car_model;
+    public String getCarModel() {
+        return carModel;
     }
 
-    public void setCar_model(String car_model) {
-        this.car_model = car_model;
+    public void setCarModel(String carModel) {
+        this.carModel = carModel;
     }
 
-    public String getCar_year() {
-        return car_year;
+    public String getCarYear() {
+        return carYear;
     }
 
-    public void setCar_year(String car_year) {
-        this.car_year = car_year;
+    public void setCarYear(String carYear) {
+        this.carYear = carYear;
     }
 
-    public String getCar_price() {
-        return car_price;
+    public String getCarPrice() {
+        return carPrice;
     }
 
-    public void setCar_price(String car_price) {
-        this.car_price = car_price;
+    public void setCarPrice(String carPrice) {
+        this.carPrice = carPrice;
     }
 
-    public String getDealer_location() {
-        return dealer_location;
+    public String getDealerLocation() {
+        return dealerLocation;
     }
 
-    public void setDealer_location(String dealer_location) {
-        this.dealer_location = dealer_location;
+    public void setDealerLocation(String dealerLocation) {
+        this.dealerLocation = dealerLocation;
     }
 
-    public String getCar_km() {
-        return car_km;
+    public String getCarKm() {
+        return carKm;
     }
 
-    public void setCar_km(String car_km) {
-        this.car_km = car_km;
+    public void setCarKm(String carKm) {
+        this.carKm = carKm;
     }
 
     public long getId(){return id;}
