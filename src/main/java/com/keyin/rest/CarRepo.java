@@ -5,4 +5,5 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 @RepositoryRestResource(collectionResourceRel = "car", path = "car")
 public interface CarRepo extends JpaRepository<Car, Long> {
+
 }
